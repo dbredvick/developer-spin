@@ -11,11 +11,11 @@ export default class SubscribeForm extends React.Component {
               <div className="form-row">
                 <label>
                   <span className="screen-reader-text">Email address</span>
-                  <input className="subscribe-email" type="email" name="email" placeholder="Enter Email Address..."/>
+                  <input className="subscribe-email" type="email" name="email" placeholder="example@email.com"/>
                 </label>
               </div>
               <input type="hidden" name="form-name" value="subscribeForm" />
-              <button className="button" type="submit">Subscribe</button>
+              <button className="button" type="submit">Stay Updated</button>
             </form>
         );
     }
