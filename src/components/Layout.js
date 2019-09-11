@@ -8,7 +8,8 @@ import Subscribe from './Subscribe';
 import Footer from './Footer';
 
 export default class Body extends React.Component {
-    render() {
+  render() {
+  const desc = 'Welcome to Tech Stuff, where I share my analysis of <b>software development</b>, <b>productivity</b>, <b>wealth</b>, and <b>health</b>. Come learn and grow with me 📝💪🧠';
         return (
             <React.Fragment>
                 <Helmet>
@@ -18,6 +19,16 @@ export default class Body extends React.Component {
                     <meta name="google" content="notranslate" />
                     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i%7CPT+Serif:400,700" rel="stylesheet"/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
+                    <meta http-equiv="content-language" content="en-us"/>
+                    <meta property="og:image" content={safePrefix(_.get(this.props, 'pageContext.frontmatter.content_img_path'))}></meta>
+                    <meta property="og:title" content="Tech Stuff with Drew" />
+                    <meta property="og:description" content={desc} />
+                    <meta name="description" content={desc} />
+                    <meta property="og:type" content="article" />
+                    <meta name="twitter:creator" content="@dbredvick"></meta>
+                    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png"/>
+                    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>
+                    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
                 </Helmet>
                   <div id="page" className={'site layout-' + _.get(this.props, 'pageContext.site.siteMetadata.layout_style') + ' palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette')}>
                     <Header {...this.props} />
