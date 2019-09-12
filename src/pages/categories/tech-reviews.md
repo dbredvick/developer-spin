@@ -6,6 +6,6 @@ sections:
     type: intro
     title: Intro
     content: >-
-     I buy <i>waaayyy</i> too much tech stuff. Check out my favorites and learn from my bad buys 📱💸
+     I buy <i>waaayyy</i> too much money on tech stuff. Check out my favorites and learn from my bad buys 📱💸
 template: posts
 ---
