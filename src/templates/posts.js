@@ -3,11 +3,12 @@ import _ from 'lodash';
 import moment from 'moment-strftime';
 
 import components, {Layout} from '../components/index';
-import {getPages, Link, safePrefix} from '../utils';
+import {getPagesByTags, Link, safePrefix} from '../utils';
 
-export default class Home extends React.Component {
+export default class Posts extends React.Component {
     render() {
-        let display_posts = _.orderBy(getPages(this.props.pageContext.pages, '/posts'), 'frontmatter.date', 'desc');
+        let display_posts = _.orderBy(getPagesByTags(this.props.pageContext.pages, '/posts', this.props.pageContext.name), 'frontmatter.date', 'desc');
+
         return (
             <Layout {...this.props}>
               {_.map(_.get(this.props, 'pageContext.frontmatter.sections'), (section, section_idx) => {
@@ -16,8 +17,11 @@ export default class Home extends React.Component {
                     <GetSectionComponent key={section_idx} {...this.props} section={section} site={this.props.pageContext.site} />
                   )
               })}
-              <h2>All Posts</h2>
+              <h2>{_.get(this.props, 'pageContext.frontmatter.title')}</h2>
               <div className="post-feed">
+                { !display_posts.length && 
+                  <p>No posts here, yet 😅</p>
+                }
                 {_.map(display_posts, (post, post_idx) => (
                 <article key={post_idx} className="post post-card">
                   <div className="post-card-inside">

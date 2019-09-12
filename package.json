@@ -15,6 +15,7 @@
     "fs-extra": "^7.0.1",
     "gatsby": "2.3.30",
     "gatsby-plugin-google-tagmanager": "^2.1.9",
+    "gatsby-plugin-modal-routing": "^1.0.2",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sitemap": "^2.2.12",
     "gatsby-plugin-twitter": "^2.1.6",

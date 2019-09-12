@@ -7,6 +7,7 @@ thumb_img_path: images/home.jpg
 content_img_path: images/home.jpg
 template: post
 twitter_image: images/home-twitter.jpg
+tags: ['side-projects', 'software-exploration']
 ---
 
 ## Buying a home is a _huge_ decision.

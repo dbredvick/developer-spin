@@ -7,6 +7,7 @@ thumb_img_path: images/building-wealth-podcast-image.png
 content_img_path: images/building-wealth-podcast-image.png
 template: post
 twitter_image: images/building-wealth-podcast-image.png
+tags: ['books-and-podcasts']
 ---
 ## Who is Naval?
 **Naval Ravikant** is a founder and current Chairman of [AngelList](https://angel.co). I found him via a [Joe Rogan podcast](https://www.youtube.com/watch?v=3qHkcs3kG44) back in June. He has a great [Twitter account](https://twitter.com/naval) and you can read more about him at [https://nav.al/about](https://nav.al/about).

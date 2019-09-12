@@ -4,6 +4,7 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-twitter`,
+        `gatsby-plugin-modal-routing`,
         `gatsby-plugin-sitemap`,
         {
             resolve: "gatsby-plugin-google-tagmanager",

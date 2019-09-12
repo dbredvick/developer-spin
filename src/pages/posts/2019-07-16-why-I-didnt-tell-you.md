@@ -7,6 +7,7 @@ thumb_img_path: images/county-fair.jpg
 content_img_path: images/county-fair.jpg
 template: post
 twitter_image: images/county-fair-twitter.jpg
+tags: ['health', 'personal']
 ---
 
 In junior high, I was pantsed at the Red Willow county fair – on a “date” nonetheless. Given the fact I was 14, I thought my dating life was over.

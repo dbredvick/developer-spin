@@ -5,6 +5,7 @@ import Social from './Social';
 import Subscribe from './Subscribe';
 import SubscribeForm from './SubscribeForm';
 import Layout from './Layout';
+import Categories from './Categories'
 
 export {
     Footer,
@@ -13,7 +14,8 @@ export {
     Social,
     Subscribe,
     SubscribeForm,
-    Layout
+    Layout,
+    Categories
 };
 
 export default {
@@ -23,5 +25,6 @@ export default {
     Social,
     Subscribe,
     SubscribeForm,
-    Layout
+    Layout,
+    Categories
 };

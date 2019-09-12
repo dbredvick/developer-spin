@@ -7,6 +7,7 @@ thumb_img_path: images/netlify.png
 content_img_path: images/netlify.png
 template: post
 twitter_image: images/netlify-twitter.png
+tags: ['side-projects', 'software-exploration']
 ---
 
 ## The hype is real

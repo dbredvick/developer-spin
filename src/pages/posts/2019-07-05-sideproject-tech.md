@@ -7,6 +7,7 @@ thumb_img_path: images/decision.jpg
 content_img_path: images/decision.jpg
 template: post
 twitter_image: images/decision-twitter.jpg
+tags: ['side-projects', 'software-exploration']
 ---
 
 Getting stuck on tech decisions. 
