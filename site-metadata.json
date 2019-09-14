@@ -1,7 +1,7 @@
 {
     "siteUrl": "https://drewb.tech",
     "header": {
-        "title": "Tech Stuff",
+        "title": "The Developer Spin",
         "has_nav": true
     },
     "footer": {
@@ -17,5 +17,5 @@
     },
     "layout_style": "grid",
     "palette": "green",
-    "title": "Tech Stuff | Drew Bredvick"
+    "title": "The Developer Spin | Drew Bredvick"
 }

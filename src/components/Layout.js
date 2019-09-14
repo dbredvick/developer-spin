@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 export default class Body extends React.Component {
   render() {
-  const desc = 'Welcome to Tech Stuff, where I share my analysis of <b>software development</b>, <b>productivity</b>, <b>wealth</b>, and <b>health</b>. Come learn and grow with me 📝💪🧠';
+  const desc = 'Welcome to The Developer Spin, where I share my spin on <b>software development</b>, <b>productivity</b>, <b>wealth</b>, and <b>health</b>. Come learn and grow with me 📝💪🧠';
         return (
             <React.Fragment>
                 <Helmet>
@@ -21,7 +21,7 @@ export default class Body extends React.Component {
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
                     <meta http-equiv="content-language" content="en-us"/>
                     <meta property="og:image" content={safePrefix(_.get(this.props, 'pageContext.frontmatter.content_img_path'))}></meta>
-                    <meta property="og:title" content="Tech Stuff with Drew" />
+                    <meta property="og:title" content="The Developer Spin" />
                     <meta property="og:description" content={desc} />
                     <meta name="description" content={desc} />
                     <meta property="og:type" content="article" />
