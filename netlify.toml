@@ -1,3 +1,5 @@
 [build]
 publish = "public"
 command = "./stackbit-build.sh"
+
+https://drewb.tech/* https://developerspin.com/:splat 301!
