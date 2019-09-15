@@ -2,4 +2,6 @@
 publish = "public"
 command = "./stackbit-build.sh"
 
-https://drewb.tech/* https://developerspin.com/:splat 301!
+[[redirects]]
+    from = "https://drewb.tech/*"
+    to = "https://developerspin.com/:splat"
