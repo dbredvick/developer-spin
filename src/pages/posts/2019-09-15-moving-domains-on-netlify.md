@@ -7,7 +7,7 @@ thumb_img_path: images/change-to-new-domain.jpg
 content_img_path: images/change-to-new-domain.jpg
 template: post
 twitter_image: images/change-to-new-domain.jpg
-tags: ['software-exploration']
+tags: ['software-exploration', 'side-projects']
 ---
 
 
