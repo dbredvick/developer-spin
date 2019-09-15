@@ -13,6 +13,7 @@ export default class Post extends React.Component {
             <Layout {...this.props}>
               {_.get(this.props, 'pageContext.frontmatter.excerpt') && 
               <Helmet>
+                  <meta property="og:title" content={_.get(this.props, 'pageContext.frontmatter.title')}></meta>
                   <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt')}></meta>
                   <meta property="og:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt')}></meta>
               </Helmet>
