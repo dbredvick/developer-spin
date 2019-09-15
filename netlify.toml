@@ -5,3 +5,4 @@ command = "./stackbit-build.sh"
 [[redirects]]
     from = "https://drewb.tech/*"
     to = "https://developerspin.com/:splat"
+    force = true
