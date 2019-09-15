@@ -1,6 +1,8 @@
 import React from 'react';
 import _ from 'lodash';
 import moment from 'moment-strftime';
+import { Helmet } from 'react-helmet';
+
 
 import {Layout} from '../components/index';
 import {htmlToReact, safePrefix} from '../utils';
@@ -9,6 +11,12 @@ export default class Post extends React.Component {
     render() {
         return (
             <Layout {...this.props}>
+              {_.get(this.props, 'pageContext.frontmatter.excerpt') && 
+              <Helmet>
+                  <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt')}></meta>
+                  <meta property="og:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt')}></meta>
+              </Helmet>
+              }
               <article className="post post-full">
                 <header className="post-header">
                   <div className="post-meta">
