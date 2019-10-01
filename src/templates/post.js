@@ -42,6 +42,10 @@ export default class Post extends React.Component {
                   {htmlToReact(_.get(this.props, 'pageContext.html'))}
                 </div>
               </article>
+              {recPosts.length &&
+                  <center><h2>Recommended Posts</h2></center>
+
+                }
               <div className="post-feed">
               {recPosts.map(((post, post_idx) =>(
                 <article key={post_idx} className="post post-card">
