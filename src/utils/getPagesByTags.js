@@ -1,7 +1,7 @@
 import _ from "lodash";
 
-export default function(pages, folderPath, tag) {
+export default function(pages, folderPath, tags) {
+    console.log(pages,folderPath,tags);
     folderPath = folderPath.replace(/^\//, '');
-    console.log(pages);
-    return _.filter(pages, {relativeDir: folderPath, frontmatter: { tags: [tag] } });
+    return _.filter(pages, {relativeDir: folderPath, frontmatter: { tags: [...tags] } });
 }

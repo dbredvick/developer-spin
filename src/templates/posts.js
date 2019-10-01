@@ -7,7 +7,7 @@ import {getPagesByTags, Link, safePrefix} from '../utils';
 
 export default class Posts extends React.Component {
     render() {
-        let display_posts = _.orderBy(getPagesByTags(this.props.pageContext.pages, '/posts', this.props.pageContext.name), 'frontmatter.date', 'desc');
+        let display_posts = _.orderBy(getPagesByTags(this.props.pageContext.pages, '/posts', [this.props.pageContext.name]), 'frontmatter.date', 'desc');
 
         return (
             <Layout {...this.props}>

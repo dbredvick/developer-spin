@@ -5,11 +5,13 @@ import { Helmet } from 'react-helmet';
 
 
 import {Layout} from '../components/index';
-import {htmlToReact, safePrefix} from '../utils';
+import {getPagesByTags, htmlToReact, safePrefix, Link} from '../utils';
 
 export default class Post extends React.Component {
     render() {
-        return (
+      let posts = _.orderBy(getPagesByTags(this.props.pageContext.pages, '/posts', this.props.pageContext.frontmatter.tags), 'frontmatter.date', 'desc');
+      const recPosts = posts.filter(x => x.name !== this.props.pageContext.name).slice(0,2);
+      return (
             <Layout {...this.props}>
               {_.get(this.props, 'pageContext.frontmatter.excerpt') && 
               <Helmet>
@@ -40,6 +42,35 @@ export default class Post extends React.Component {
                   {htmlToReact(_.get(this.props, 'pageContext.html'))}
                 </div>
               </article>
+              <div className="post-feed">
+              {recPosts.map(((post, post_idx) =>(
+                <article key={post_idx} className="post post-card">
+                <div className="post-card-inside">
+                  {_.get(post, 'frontmatter.thumb_img_path') && 
+                  <Link className="post-card-thumbnail" to={safePrefix(_.get(post, 'url'))}>
+                    <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
+                  </Link>
+                  }
+                  <div className="post-card-content">
+                    <header className="post-header">
+                      <div className="post-meta">
+                        <time className="published"
+                        dateTime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
+                      </div>
+                      <h2 className="post-title"><Link to={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</Link></h2>
+                    </header>
+                    <div className="post-excerpt">
+                      <p>{_.get(post, 'frontmatter.excerpt')}</p>
+                      <p className="read-more">
+                        <Link className="button inverse" to={safePrefix(_.get(post, 'url'))}>Read more</Link>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              )))
+              }
+              </div>
             </Layout>
         );
     }
