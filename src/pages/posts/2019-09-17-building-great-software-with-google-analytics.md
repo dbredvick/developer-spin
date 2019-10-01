@@ -15,17 +15,17 @@ There are a few different reasons you could be reading this right now:
 2. The marketing department asked you to add Google Analytics/Tag Manager to the site
 3. You're a product manager trying to write Jira tickets for your engineers
 
-In all of these scenarios, this guide should serve as a blueprint for your upcoming work. This guide skews towards developers, but should be friendly for all audiences.
+In all of these scenarios, this guide should serve as a blueprint for your upcoming work. This guide skews towards developers but should be friendly for all audiences.
 
 ## Overview
 ### Part One
 In this first section, we will talk about the motivation for tracking. It's best to know the reason behind what you're doing; building the best product for our users is _that reason_.
 
 ### Part Two
-Think of this piece as the "Getting Started" guide. GTM (Google Tag Manager) and GA (Google Analytics) have developer documentation, but it's missing the wholistic view that's important to know while implementing any new technology.
+Think of this piece as the "Getting Started" guide. GTM (Google Tag Manager) and GA (Google Analytics) have developer documentation, but it's missing the holistic view that's important to know while implementing any new technology.
 
 ### Part Three
-Finally, we'll go through some scenarios of tracking. This is the part that most guides invovling Google Analytics are missing in my opinion. They are rarely written for both developers and marketers. This guide hopefully will merge that gap.
+Finally, we'll go through some scenarios of tracking. This is the part that most guides involving Google Analytics are missing in my opinion. They are rarely written for both developers and marketers. This guide hopefully will merge that gap.
 
 --- 
 
@@ -50,7 +50,7 @@ The action we take now will impact the codebase and product for years to come. T
 - Use statistically significant data when making decisions (we were tweaking Spreetail.com with a few hundred users, not enough to be sure of our findings)
 
 ### We need to have a baseline of data to compare for A/B testing.
-Measurement is the first step towards running successful A/B tests. A few months from now, someone in your company is going to ask for A/B testing. This is a prerequisite. If you don't have basline metrics, testing means nothing.
+Measurement is the first step towards running successful A/B tests. A few months from now, someone in your company is going to ask for A/B testing. This is a prerequisite. If you don't have baseline metrics, testing means nothing.
 
 ## Okay, so how do we do this the "right way"?
 

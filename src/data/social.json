@@ -23,6 +23,12 @@
             "title": "LinkedIn",
             "icon": "fa-linkedin",
             "url": "https://www.linkedin.com/in/drew-bredvick/"
+        },
+        {
+            "type": "dev",
+            "title": "Dev",
+            "icon": "fa-dev",
+            "url": "https://dev.to/dbredvick"
         }
     ]
 }
