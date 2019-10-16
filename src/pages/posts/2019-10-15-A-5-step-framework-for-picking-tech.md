@@ -56,7 +56,7 @@ Being full-stack will help a lot in the early days when our resources are limite
 
 ## Initial Architecture
 Here’s my best take at diagraming architecture using Instagram stories.
-![zeit now NextJS basic architecture diagram](images/now-nextjs-diagram.jpg)
+![zeit now NextJS basic architecture diagram](/images/now-nextjs-diagram.jpg)
 
 ## Tech Decisions
 
