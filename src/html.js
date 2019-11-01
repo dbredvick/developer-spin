@@ -5,6 +5,7 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
+        <meta name="google-site-verification" content="ZOpT12kE2Y3qy0tWil2VvrHwvarTONTHfVz9fluHCzM" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
