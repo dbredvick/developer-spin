@@ -3,14 +3,13 @@ import ReactHtmlParser, { convertNodeToElement } from 'react-html-parser';
 import ScriptTag from 'react-script-tag';
 import _ from 'lodash';
 
-export default function(html) {
+export default function (html) {
     if (!html) {
         return null;
     }
     return ReactHtmlParser(html, {
         transform: (node, index) => {
             if (node.type === 'script') {
-                console.log(node);
                 if (!_.isEmpty(node.children)) {
                     return (
                         <ScriptTag key={index} {...node.attribs}>
@@ -18,7 +17,7 @@ export default function(html) {
                         </ScriptTag>
                     );
                 } else {
-                    return <ScriptTag key={index} {...node.attribs}/>;
+                    return <ScriptTag key={index} {...node.attribs} />;
                 }
             }
         }
