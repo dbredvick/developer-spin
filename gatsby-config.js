@@ -7,20 +7,74 @@ module.exports = {
         `gatsby-plugin-modal-routing`,
         `gatsby-plugin-sitemap`,
         {
+            resolve: `gatsby-plugin-feed`,
+            options: {
+                query: `
+                {
+                  site {
+                    siteMetadata {
+                      title
+                      description
+                      siteUrl
+                      site_url: siteUrl
+                    }
+                  }
+                }
+              `,
+                feeds: [
+                    {
+                        serialize: ({ query: { site, allMarkdownRemark } }) => {
+                            const onlyPosts = allMarkdownRemark.edges.filter(edge => edge.node.fields.slug.includes('post'))
+                            return onlyPosts.map(edge => {
+                                return Object.assign({}, edge.node.frontmatter, {
+                                    description: edge.node.excerpt,
+                                    date: edge.node.frontmatter.date,
+                                    url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                                    guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                                    custom_elements: [{ "content:encoded": edge.node.html }],
+                                })
+                            })
+                        },
+                        query: `
+                    {
+                      allMarkdownRemark(
+                        sort: { order: DESC, fields: [frontmatter___date] },
+                      ) {
+                        edges {
+                          node {
+                            excerpt
+                            html
+                            fields { slug }
+                            frontmatter {
+                              title
+                              date
+                            }
+                          }
+                        }
+                      }
+                    }
+                  `,
+                        output: "/rss.xml",
+                        title: "The Developer Spin",
+                    },
+                ],
+            },
+        },
+        {
             resolve: "gatsby-plugin-google-tagmanager",
             options: {
-              id: "GTM-5RHXDKV",
-        
-              // Include GTM in development.
-              // Defaults to false meaning GTM will only be loaded in production.
-              includeInDevelopment: false,
-        
-              // datalayer to be set before GTM is loaded
-              // should be an object or a function that is executed in the browser
-              // Defaults to null
-              defaultDataLayer: { platform: "gatsby" },
+                id: "GTM-5RHXDKV",
+
+                // Include GTM in development.
+                // Defaults to false meaning GTM will only be loaded in production.
+                includeInDevelopment: false,
+
+                // datalayer to be set before GTM is loaded
+                // should be an object or a function that is executed in the browser
+                // Defaults to null
+                defaultDataLayer: { platform: "gatsby" },
             },
-          },
+        },
         `gatsby-source-data`,
         {
             resolve: `gatsby-source-filesystem`,
@@ -45,7 +99,7 @@ module.exports = {
         {
             resolve: `gatsby-remark-page-creator`,
             options: {
-                
+
             }
         },
         {
