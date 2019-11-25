@@ -26,12 +26,21 @@ module.exports = {
                         serialize: ({ query: { site, allMarkdownRemark } }) => {
                             const onlyPosts = allMarkdownRemark.edges.filter(edge => edge.node.fields.slug.includes('post'))
                             return onlyPosts.map(edge => {
+                                let html = edge.node.html;
+                                // Hacky workaround for https://github.com/gaearon/overreacted.io/issues/65
+                                html = html
+                                    .replace(/href="\//g, `href="${siteUrl}/`)
+                                    .replace(/src="\//g, `src="${siteUrl}/`)
+                                    .replace(/"\/static\//g, `"${siteUrl}/static/`)
+                                    .replace(/,\s*\/static\//g, `,${siteUrl}/static/`);
+
                                 return Object.assign({}, edge.node.frontmatter, {
                                     description: edge.node.excerpt,
                                     date: edge.node.frontmatter.date,
                                     url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                                     guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                                    custom_elements: [{ "content:encoded": edge.node.html }],
+                                    custom_elements: [{ "content:encoded": html }],
+                                    author: 'Drew Bredvick'
                                 })
                             })
                         },
