@@ -26,6 +26,7 @@ module.exports = {
                         serialize: ({ query: { site, allMarkdownRemark } }) => {
                             const onlyPosts = allMarkdownRemark.edges.filter(edge => edge.node.fields.slug.includes('post'))
                             return onlyPosts.map(edge => {
+                                const siteUrl = site.siteMetadata.siteUrl;
                                 let html = edge.node.html;
                                 // Hacky workaround for https://github.com/gaearon/overreacted.io/issues/65
                                 html = html
