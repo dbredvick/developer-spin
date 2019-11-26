@@ -25,7 +25,7 @@ I'm _probabblllyy_ talking to myself.
 
 Recently, at 25 years old, I realized I'm super annoying to other people when I do this. I guess I thought everyone else was interested in what I was thinking? (stupid, I know)
 
-My fiancée helped me realize others can't focus while I'm ruminating over details of a project or planning out what my next week is going to look like.
+My loving fiancée helped me realize others can't focus while I'm ruminating over details of a project or planning out what my next week is going to look like, all audibly.
 
 ### This should have been obvious, right?
 
