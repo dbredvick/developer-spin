@@ -2,7 +2,7 @@
 title: 'On Turning Off Notifications'
 excerpt: >-
     Creating time to think is important, but the world (and your cellphone) tries to steal it.
-date: '2019-11-27'
+date: '2019-11-25'
 thumb_img_path: images/Notification.png
 content_img_path: images/Notification.png
 template: post
