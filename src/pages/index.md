@@ -6,7 +6,7 @@ sections:
     type: intro
     title: Intro
     content: >-
-      Welcome to The Developer Spin, where I share my spin on <b>software development</b>, <b>productivity</b>, <b>wealth</b>, and <b>health</b>. Come learn and grow with me 📝💪🧠
+      Welcome to The Developer Spin, where I <b>review</b> software, <b>build and grow</b> side projects, and <b>share</b> what I learn along the way.
     actions:
       - label: Sign up for my newsletter
         url: /#subscribe
@@ -15,7 +15,7 @@ sections:
     type: categories
     title: Filter by topic
     content: >-
-      Welcome to The Developer Spin, where I share my spin on <b>software development</b>, <b>productivity</b>, <b>wealth</b>, and <b>health</b>. Come learn and grow with me 📝💪🧠
+      Welcome to The Developer Spin, where I <b>review</b> software, <b>build and grow</b> side projects, and <b>share</b> what I learn along the way.
 menus:
   main:
     title: Home
