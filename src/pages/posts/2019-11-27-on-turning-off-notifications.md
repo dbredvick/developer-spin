@@ -7,7 +7,7 @@ thumb_img_path: images/Notification.png
 content_img_path: images/Notification.png
 template: post
 twitter_image: images/Notification.png
-tags: ['books-and-podcasts']
+tags: ['side-projects','software-exploration']
 ---
 
 ## I think out loud
