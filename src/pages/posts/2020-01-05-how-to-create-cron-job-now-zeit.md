@@ -58,7 +58,7 @@ This isn't truly going to be a cron job. We're going to be using [EasyCron.com](
 
 ![cron job setup](/images/easycron-create.png)
 
-Here's what we are trying to achive:
+Here's what we are trying to achieve:
 
 ![EasyCron NextJS Demo](/images/EasyCron-demo.png)
 
