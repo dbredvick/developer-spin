@@ -48,9 +48,11 @@ If you're going to use TypeScript, follow the [NextJS guide](https://nextjs.org/
 
 Here's the link to the example code: [text.ts](https://gist.github.com/dbredvick/602e398b61ac960e326fdd45dab67f3d). You will need to install the following packages as well: [package.json](https://gist.github.com/dbredvick/f2beb92070789b662849b8dc82092c21).
 
-## 3. Add some security
+## 3. Add some security & deploy
 
 Every project needs a little security. For this project, let's make sure our API route is requiring some auth. See the part where we are checking for `superSecretAPIKey`? You should come up with your own secret and save it for later. We're going to be using that in step number five.
+
+To deploy to Now, follow [this guide](https://zeit.co/docs#installing-now-cli) to deploy with the CLI.
 
 ## 4. Create a cron job
 
