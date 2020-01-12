@@ -18,9 +18,9 @@ Lot's of apps use cron jobs. In the past, I've setup [cron jobs on linux](https:
 
 #### Want a text reminder of your New Year's goals but don't want to run the code yourself?
 
-I'll setup daily text reminders, pay the Twilio fees, and the hosting costs for the first 10 people who retweet this tweet and DM me.
+I'll setup daily text reminders, pay the Twilio fees, and the hosting costs for the first 10 people who retweet this tweet and DM me 🙂
 
-<a href="https://twitter.com/DBredvick?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @DBredvick</a>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I created an automatic text to remind myself of my New Year&#39;s resolutions each morning.<br><br>It&#39;s a simple NextJS app deployed on Zeit that uses <a href="https://twitter.com/EasyCron?ref_src=twsrc%5Etfw">@EasyCron</a> to hit Twilio every day. <br><br>What do you want to remind yourself of everyday?<a href="https://t.co/enzxJU89DA">https://t.co/enzxJU89DA</a></p>&mdash; Drew Bredvick (@DBredvick) <a href="https://twitter.com/DBredvick/status/1216176087207682056?ref_src=twsrc%5Etfw">January 12, 2020</a></blockquote>
 
 > But how do we run cron jobs in Zeit Now deploys? - You, right now, in your Google query
 
@@ -75,5 +75,7 @@ This is adding some security, but is not the best option. If you need to _really
 ## And that's it!
 
 Congrats, you setup cron jobs inside of a serverless NextJS app hosted with Zeit. Please let me know if you ran into any problems!
+
+<a href="https://twitter.com/DBredvick?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @DBredvick</a>
 
 Good luck on those resolutions  💪💯
