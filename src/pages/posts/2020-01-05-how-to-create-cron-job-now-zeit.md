@@ -28,7 +28,7 @@ There are five quick steps you need to run cron jobs in a Zeit NextJS app.
 
 ## 1. Start your project
 
-To create a quick NextJS project, I used `create-next-app` metnioned in the [NextJS docs](https://github.com/zeit/next.js#quick-start).
+To create a quick NextJS project, I used `create-next-app` mentioned in the [NextJS docs](https://github.com/zeit/next.js#quick-start).
 
 You'll want to make sure you have:
 
