@@ -19,6 +19,7 @@ export default class Post extends React.Component {
             <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt')}></meta>
             <meta property="og:description" content={_.get(this.props, 'pageContext.frontmatter.excerpt')}></meta>
             <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content="@dbredvick" />
             <meta name="twitter:image" content={`https://developerspin.com/${_.get(this.props, 'pageContext.frontmatter.twitter_image')}`}></meta>
           </Helmet>
         }
