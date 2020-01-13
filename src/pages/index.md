@@ -6,16 +6,17 @@ sections:
     type: intro
     title: Intro
     content: >-
-      Welcome to The Developer Spin, where I <b>review</b> software, <b>build and grow</b> side projects, and <b>share</b> what I learn along the way.
+      Welcome to the Developer Spin. You'll find posts about topics like: 
+        - Testing new frameworks 
+        - Improving developer productivity
+        - Building profitable side projects
+        - Listening to podcasts
+
+      I send out a newsletter each week with <b>my newest post</b>, <b>one tweet</b>, and <b>podcast recommendations</b>.
     actions:
       - label: Sign up for my newsletter
         url: /#subscribe
-  - section_id: categories
-    component: Categories
-    type: categories
-    title: Filter by topic
-    content: >-
-      Welcome to The Developer Spin, where I <b>review</b> software, <b>build and grow</b> side projects, and <b>share</b> what I learn along the way.
+
 menus:
   main:
     title: Home
