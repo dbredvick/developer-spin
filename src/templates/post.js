@@ -93,7 +93,9 @@ export default class Post extends React.Component {
                     "pageContext.frontmatter.thumb_img_path"
                   )}
                   alt={_.get(this.props, "pageContext.frontmatter.title")}
-                />
+                >
+                  <Transformation quality="auto" fetchFormat="auto" />
+                </Image>
               </div>
             )}
             <div className="post-content">
