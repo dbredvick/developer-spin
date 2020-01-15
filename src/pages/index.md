@@ -10,7 +10,6 @@ sections:
         - Testing new frameworks 
         - Improving developer productivity
         - Building profitable side projects
-        - Listening to podcasts
 
       I send out a newsletter each week with <b>my newest post</b>, <b>one tweet</b>, and <b>podcast recommendations</b>.
     actions:
