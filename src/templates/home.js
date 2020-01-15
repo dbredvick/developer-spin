@@ -19,7 +19,7 @@ export default class Home extends React.Component {
     );
     return (
       <Layout {...this.props}>
-        <CloudinaryContext cloudName="developer-spin">
+        <CloudinaryContext cloudName="developer-spin" secure="true">
           {_.map(
             _.get(this.props, "pageContext.frontmatter.sections"),
             (section, section_idx) => {
