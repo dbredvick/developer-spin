@@ -1,12 +1,7 @@
 import React from "react";
 import _ from "lodash";
 import moment from "moment-strftime";
-import {
-  Image,
-  Video,
-  Transformation,
-  CloudinaryContext
-} from "cloudinary-react";
+import { Image, Transformation, CloudinaryContext } from "cloudinary-react";
 import components, { Layout } from "../components/index";
 import { getPages, Link, safePrefix } from "../utils";
 
