@@ -3,7 +3,7 @@ title: "How to Create a Cron Job with NextJS and Now "
 excerpt: >-
   ⚡️ A fast five step guide for adding cron jobs to your serverless Zeit application.
 date: "2020-01-05 12:00"
-thumb_img_path: images/cron-job-text.jpg
+thumb_img_path: v1579111016/blog/cron-job-text_jpqipf
 content_img_path: images/cron-job-text.jpg
 template: post
 twitter_image: images/cron-job-text.jpg

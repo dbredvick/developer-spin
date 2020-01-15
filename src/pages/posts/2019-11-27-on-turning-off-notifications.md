@@ -1,19 +1,21 @@
 ---
-title: 'On Turning Off Notifications'
+title: "On Turning Off Notifications"
 excerpt: >-
-    Creating time to think is important, but the world (and your cellphone) tries to steal it.
-date: '2019-11-27 12:00'
-thumb_img_path: images/Notification.png
+  Creating time to think is important, but the world (and your cellphone) tries to steal it.
+date: "2019-11-27 12:00"
+thumb_img_path: v1579111019/blog/Notification_c6rfm8
 content_img_path: images/Notification.png
 template: post
 twitter_image: images/Notification.png
-tags: ['side-projects','software-exploration']
+tags: ["side-projects", "software-exploration"]
 ---
 
 ## I think out loud
-I develop my thoughts as I say them. I always have, even from a young age. Both my parents do it, so maybe that explains it? It helps me reason about complicated things. I generally come up with a better plan when I think through thoughts out loud. 
+
+I develop my thoughts as I say them. I always have, even from a young age. Both my parents do it, so maybe that explains it? It helps me reason about complicated things. I generally come up with a better plan when I think through thoughts out loud.
 
 If I'm:
+
 - coding
 - brainstorming
 - planning
@@ -21,7 +23,8 @@ If I'm:
 I'm _probabblllyy_ talking to myself.
 
 ![sound wave](/images/Speaker.png)
->My brain is plugged directly into a speaker that's always turned on.
+
+> My brain is plugged directly into a speaker that's always turned on.
 
 Recently, at 25 years old, I realized I'm super annoying to other people when I do this. I guess I thought everyone else was interested in what I was thinking? (stupid, I know)
 
@@ -43,10 +46,8 @@ I thought wrong.
 
 ### Ignore your notifications
 
-Turn off your phones this holiday season and spend time with the ones you love, and don't worry about the notifications that pile up. 
+Turn off your phones this holiday season and spend time with the ones you love, and don't worry about the notifications that pile up.
 
 After all, I'm reasonably sure that no one's "I'm thankful for" list contains email notifications.
 
 **Happy Thanksgiving**
-
-

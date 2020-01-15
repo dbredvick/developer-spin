@@ -2,23 +2,28 @@
 title: How to Get Rich (Naval) Notes
 excerpt: >-
   I listened to Naval Ravikant's Twitter thread turned podcast about the concept of wealth creation nearly 30 times. Here are the takeaways.
-date: '2019-09-06'
-thumb_img_path: images/building-wealth-podcast-image.png
+date: "2019-09-06"
+thumb_img_path: v1579111014/blog/building-wealth-podcast-image_p6zoan
 content_img_path: images/building-wealth-podcast-image.png
 template: post
 twitter_image: images/building-wealth-podcast-image.png
-tags: ['books-and-podcasts']
+tags: ["books-and-podcasts"]
 ---
+
 ## Who is Naval?
+
 **Naval Ravikant** is a founder and current Chairman of [AngelList](https://angel.co). I found him via a [Joe Rogan podcast](https://www.youtube.com/watch?v=3qHkcs3kG44) back in June. He has a great [Twitter account](https://twitter.com/naval) and you can read more about him at [https://nav.al/about](https://nav.al/about).
 
 ## What is this post about?
+
 Naval posted a Twitter thread with his philosophy on wealth creation. His cofounder interviewed him about the thread, and together the clips form a nearly THREE HOUR long podcast [(link)](https://pca.st/episode/fa41637c-ef96-45a8-b942-9c88b61139a8). I love philosophy, finance, and podcasts, so this episode was like catnip for me.
 
 I listened to the episode so many times (it has to be nearly 30 at this point) I thought I would share my notes. Follow me on Twitter and share your thoughts!
 
 <a href="https://twitter.com/DBredvick?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @DBredvick</a>
+
 ## On Wealth and Status
+
 <blockquote class="twitter-tweet" data-conversation="none" data-theme="light"><p lang="en" dir="ltr">You’re not going to get rich renting out your time. You must own equity - a piece of a business - to gain your financial freedom.</p>&mdash; Naval (@naval) <a href="https://twitter.com/naval/status/1002103670400417792?ref_src=twsrc%5Etfw">May 31, 2018</a></blockquote>
 
 Wealth is assets that earn while you sleep. Its purpose is freedom. Wake, eat, and sleep on your own schedule.
@@ -33,7 +38,7 @@ Pure capitalism is not evil, it&#39;s an information exchange using an IOU syste
 
 Capitalism is a system that helps us to collaborate. It&#39;s the game that keeps supermarkets stocked, a roof over your head, and the iPhone buzzing in your pocket.
 
-Capitalism occasionally gets hijacked by bad governments, corruption, and human nature. This commonly looks like **monopolies**, **mispriced externalities**, or **crony capitalism**. 
+Capitalism occasionally gets hijacked by bad governments, corruption, and human nature. This commonly looks like **monopolies**, **mispriced externalities**, or **crony capitalism**.
 
 Capitalism played morally, ethically, and responsibly is a positive force.
 
@@ -52,7 +57,7 @@ Too many takers and not enough creators in a system destroys the system. Too man
 2. Lifestyle inflation
 
 - Your raise gets eaten by new items
-- You 
+- You
 
 **How you CAN build wealth**
 
@@ -64,11 +69,11 @@ Too many takers and not enough creators in a system destroys the system. Too man
 
 **Give society what it wants, but doesn&#39;t know how to get, at scale.**
 
-
 ## On Luck
+
 This section seems heavily influenced by Nassim Taleb. Marc Andreessen&#39;s blog also makes an appearance.
 
-- [Fooled by Randomness](https://www.amazon.com/Fooled-Randomness-Hidden-Chance-Markets/dp/B0012IZFRW/ref=pd_sbs_129_2/131-2798736-6334354?_encoding=UTF8&amp;pd_rd_i=B0012IZFRW&amp;pd_rd_r=662f37ae-89b1-4c86-9b86-ab0b457e9a92&amp;pd_rd_w=UF9n8&amp;pd_rd_wg=gBLWn&amp;pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&amp;pf_rd_r=6193CS1MRTXDZHR600GK&amp;psc=1&amp;refRID=6193CS1MRTXDZHR600GK) by Nassim Taleb
+- [Fooled by Randomness](https://www.amazon.com/Fooled-Randomness-Hidden-Chance-Markets/dp/B0012IZFRW/ref=pd_sbs_129_2/131-2798736-6334354?_encoding=UTF8&pd_rd_i=B0012IZFRW&pd_rd_r=662f37ae-89b1-4c86-9b86-ab0b457e9a92&pd_rd_w=UF9n8&pd_rd_wg=gBLWn&pf_rd_p=d66372fe-68a6-48a3-90ec-41d7f64212be&pf_rd_r=6193CS1MRTXDZHR600GK&psc=1&refRID=6193CS1MRTXDZHR600GK) by Nassim Taleb
 - [Antifragile](https://amzn.to/312vlGB) by Nassim Taleb
 - [The Black Swan](https://amzn.to/34sgjMv) by Nassim Taleb
 - [Luck and the Entrepreneur](https://pmarchive.com/luck_and_the_entrepreneur.html) by Marc Andreessen
@@ -78,6 +83,7 @@ You want to be the type of person who knows how to become wealthy, not just be a
 You want to be rich in 999/1000 parallel universes. It&#39;s handy to use Taleb&#39;s thought experiment of "alternative histories" in _Fooled by Randomness._ Check it out in this [Farnam Street post](https://fs.blog/2014/03/nassim-taleb-alternative-history/).
 
 There are four kinds of luck:
+
 - Blind
 - Hustle
 - Preparation (pattern recognition)
@@ -88,6 +94,7 @@ This reminds me a lot of Seth Godin&#39;s intro to [The Dip](https://amzn.to/2LJ
 Steady creation is key. Put in the work. It helps you build assets and build a reputation as a consistent person.
 
 ## On finding your niche
+
 <blockquote class="twitter-tweet" data-conversation="none" data-theme="light"><p lang="en" dir="ltr">Become the best in the world at what you do. Keep redefining what you do until this is true.</p>&mdash; Naval (@naval) <a href="https://twitter.com/naval/status/1002108897551773697?ref_src=twsrc%5Etfw">May 31, 2018</a></blockquote>
 
 You want to be number one, but you need to change what you&#39;re doing until you&#39;re number one. Don&#39;t pick something arbitrary.
@@ -104,7 +111,7 @@ Lean towards authenticity to get away from the competition.
 
 ## Career advice
 
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Pick an industry where you can play long term games with long term people.</p>&mdash; Naval (@naval) <a href="https://twitter.com/naval/status/1002103770518441989?ref_src=twsrc%5Etfw">May 31, 2018</a></blockquote> 
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Pick an industry where you can play long term games with long term people.</p>&mdash; Naval (@naval) <a href="https://twitter.com/naval/status/1002103770518441989?ref_src=twsrc%5Etfw">May 31, 2018</a></blockquote>
 
 Work with intelligent, energetic, ethical people. This is necessary to go quickly and the right direction and not get cheated at the end.
 
@@ -210,6 +217,7 @@ Judgment is knowing the long term consequences of your decisions.
 You can improve your judgment via iterations. Feedback is crucial.
 
 ## Value your time
+
 <blockquote class="twitter-tweet" data-conversation="none" data-theme="light"><p lang="en" dir="ltr">Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it.</p>&mdash; Naval (@naval) <a href="https://twitter.com/naval/status/1002108599399661568?ref_src=twsrc%5Etfw">May 31, 2018</a></blockquote>
 
 You should be too busy to &quot;do coffee&quot; but have an uncluttered calendar.
@@ -251,4 +259,5 @@ Use advice as a way to remember things you have personally learned.
 ---
 
 ## Thanks for reading
+
 Let me know what you thought on Twitter! Be sure to sign up for my newsletter below if you found this post interesting.

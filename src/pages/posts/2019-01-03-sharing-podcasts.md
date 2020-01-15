@@ -2,12 +2,12 @@
 title: Sharing is Caring
 excerpt: >-
   As a podcast lover, I want to be able to easily create a list of podcasts so that I can share them quickly with my friends and co-workers. Currently, I have to verbally tell my friends what podcasts I listen to. There’s always a back and forth where I tell them how to spell it, they show me their phone, and I click the podcast artwork that I recognize.
-date: '2019-01-03'
+date: "2019-01-03"
 template: post
-thumb_img_path: images/sharingLarge.jpg
+thumb_img_path: v1579111010/blog/sharingLarge_nbzter
 content_img_path: images/sharingLarge.jpg
 twitter_image: images/sharing-twitter.jpg
-tags: ['side-projects', 'software-exploration']
+tags: ["side-projects", "software-exploration"]
 ---
 
 ## The Problem:
