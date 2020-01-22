@@ -6,3 +6,7 @@ command = "./stackbit-build.sh"
     from = "https://drewb.tech/*"
     to = "https://developerspin.com/:splat"
     force = true
+
+    from = "https://developerspin.com/posts/*"
+    to = "https://developerspin.com/:splat"
+    force = true
